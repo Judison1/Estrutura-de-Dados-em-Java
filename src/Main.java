@@ -61,6 +61,7 @@ public class Main {
 							
 							element = SystemController.digiteElement();
 							System.out.println("Existe Elemento=" + stack.contains(element));
+							break;
 							
 						// nenhum dos casos
 						default:
@@ -104,12 +105,12 @@ public class Main {
 						// caso tamanho
 						case 4:
 							System.out.println("tamanho da fila=" + queue.getSize());
-						
+							break;
 						case 5:
 							
 							element = SystemController.digiteElement();
 							System.out.println("Existe Elemento=" + queue.contains(element));
-							
+							break;
 							// nenhum dos casos
 						default:
 							System.out.println("Nenhuma opção selecionada.");
@@ -237,6 +238,7 @@ public class Main {
 							
 							element = SystemController.digiteElement();
 							System.out.println("Existe Elemento=" + list.contains(element));
+							break;
 						default:
 							System.out.println("Nenhuma opção selecionada.");
 							break;

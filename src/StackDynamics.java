@@ -70,6 +70,7 @@ public class StackDynamics {
 				
 				if(nodes.getElement() == element){
 					check = true;
+					nodes = null;
 				} else {
 					nodes = nodes.getNext();
 				}
